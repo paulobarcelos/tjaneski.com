@@ -1,0 +1,165 @@
+/*
+Theme Name: Tjaneski
+Author: Paulo Barcelos
+Version: 1.0
+*/
+
+@import url("css/typography.css");
+/* UTILS ---------------------------- */
+.hide {
+	display:none;
+}
+/* BODY ---------------------------- */
+body,html {
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+/* WRAP ---------------------------- */
+#wrap
+{
+	width:845px;
+	margin:50px;
+}
+/* HEADER ---------------------------- */
+#header
+{
+	height: 36px;
+}
+#header #logo
+{
+	width: 210px;
+	float: left;
+}
+#header #logo a img
+{
+	border: none;
+}
+#header #logo h1
+{
+	margin:0;
+	padding:0;
+}
+#header #nav
+{
+	width: 630px;
+	float: right;
+}
+#header #nav #col
+{
+	margin:0px;
+	padding:0px;
+	width:210;
+	float:left;
+}
+#header #nav #col p
+{
+	width:210px;
+}
+/* SIDEBAR ---------------------------- */
+#sidebar
+{
+	width: 210px;
+	float: left;
+	margin-top: 50px;
+}
+#sidebar #nav ul
+{
+	margin:0 0 15px 0;
+	padding:0;
+	list-style:none;
+}
+#sidebar #nav li
+{
+	margin:0;
+	padding:0;
+}
+#sidebar #postinfo
+{
+	margin:50px 0;
+	padding:0;
+	width: 165px;
+	border-style:solid;
+	border-color: #FFC5B0;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-width:1px;
+}
+#sidebar #title, #type, #description, #credits, h2, p
+{
+	margin:0;
+	padding:0;
+}
+/* MAIN ---------------------------- */
+#main
+{
+	width: 630px;
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+#main #postgallery ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#main #postgallery li
+{
+	margin:0 0 25px 0;
+	padding:0;
+}
+#main #postgallery li.last-item
+{
+	margin:0px;
+}
+#main #featuredgallery ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#main #featuredgallery li
+{
+	margin:0 0 42px 0;
+	padding:0;
+}
+
+#main #col1, #col2, #col3
+{
+	margin:0px;
+	padding:0px;
+	width:210;
+	float:left;
+}
+#main #col1 p,
+#main #col2 p,
+#main #col3 p
+{
+	width:210px;
+}
+#main #posts #thumbnail
+{
+	margin:0;
+	padding:0;
+	display: inline;
+	position: absolute;
+}
+#main #posts #thumbnail img
+{
+	margin:0;
+	padding:0;
+	border: none;
+}
+
+/* FOOTER ---------------------------- */
+#footer
+{
+	clear:both;
+	margin-left:210px;
+}
+/* ie6 hack for footer misspositon ---------------------------- */
+* html #footer {
+	height:1px;
+}
